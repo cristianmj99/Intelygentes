@@ -1,0 +1,191 @@
+/*
+    Archivo .css de la página grupal del superequipo 2c2d.
+    Todos los derechos reservados.
+*/
+
+
+
+body {
+  background-color: antiquewhite;
+  font-family: Arial;
+  color: black;
+  text-align: center   
+}
+
+h1, h2 {
+  color: #155084;  
+  background-color: #e0cfb8;
+  text-align: center;
+}
+
+h1 {
+  font-family:sans-serif;
+  font-size: xx-large;
+}
+
+a {
+  color: chocolate;
+  text-decoration: none;
+}
+
+/* Los enlaces solo aparecen subrayados al pasar el ratón por encima */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Los enlaces visitados cambian de color */
+a:visited {
+  color: darkcyan;
+}
+
+/* Los enlaces que se muestren como botones se muestran blancos para preservar el contraste */
+a.boton {
+	color: white;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #DDDDDD;
+    background-color: #EEEEEE;
+    padding: 5px;   
+}
+
+td, th {
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid burlywood;
+    font-family: sans-serif;
+    font-size: small;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Días de la semana y horas aparecen sombreados en la tabla */
+th, .hora {
+    background-color: #eaeaea;
+}
+
+td:hover {
+    background-color: #e0cfb8;
+}
+
+ul, ol {
+    padding: 5px;
+    background-color: #EEEEEE;
+    border: 1px solid #DDDDDD;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    list-style-position: inside;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+li {
+    border: 1px solid burlywood;
+    background-color: whitesmoke;
+    color: black;
+    padding: 5px;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+    border-top: 1px solid;
+    padding-top: 8px;
+    font-size: small;
+}
+
+input, textarea, button {
+    width: auto;
+    margin: auto;
+    box-sizing: border-box;
+    font-style: normal;
+    text-align: center;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=radio], input[type=checkbox] {
+	margin-right: 8px;
+}
+
+/* Cabeceras de formularios */
+.cabecera {
+    color: burlywood;
+    text-align: center;
+    padding: 1px;
+}
+
+.fotoPerfil {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    border-radius: 8px;
+}
+
+/* Anotaciones en la página a modo de comentario */
+.anotacion {
+    font-style: oblique;
+    font-size: small; 
+}
+
+.formContacto input:valid {
+    border-color: #108914;
+}
+
+/* Se usa en elementos de listas que contienen botones para que no aparezcan los recuadros. */
+.elementoBoton {
+    border: none;
+    background-color: #EEEEEE;
+}
+
+/* Lista para que no aparezcan los puntos (formulario) */
+li.listaInvisible {
+    list-style-type: none;
+}
+
+/* Se añade a un elemento <div> para que se mantenga en la parte inferior de la pantalla al hacer scroll. Muestra sus contenidos abajo a la derecha. Se puede usar para implementar un botón de volver al inicio de la página. */
+.subir {
+	position: sticky;
+	bottom: 0px;
+	right: 0px;
+	padding-bottom: 20px
+}
+
+.boton {
+  width: 100%;
+  background-color: #4c81af;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #155084;
+}
+
+/* Añade margen derecho a un elemento. Se puede usar con botones que estén en secciones horizontales.
+   (Si se añade a todos los botones los verticales no se muestran bien)
+*/
+.lateral {
+	margin-right: 8px;
+}
